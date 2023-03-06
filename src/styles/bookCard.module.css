@@ -1,0 +1,32 @@
+.BookCardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 15px 25px;
+  background-color: white;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.div1 {
+  flex: 1;
+}
+.div2 {
+  flex: 5;
+}
+.div3 {
+  flex: 1;
+}
+
+.bookCardImg {
+  height: 240px;
+  width: 180px;
+}
+
+@media (max-width: 768px) {
+  .bookCardImg {
+    width: 100%;
+  }
+}

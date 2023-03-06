@@ -1,0 +1,33 @@
+.BookDetailsContainer {
+  background-color: white;
+}
+
+.BookDetailsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 15px 25px;
+  background-color: white;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.div1 {
+  flex: 1;
+}
+.div2 {
+  flex: 5;
+}
+
+.BookDetailsImg {
+  height: 340px;
+  width: 240px;
+}
+
+@media (max-width: 768px) {
+  .BookDetailsImg {
+    width: 100%;
+  }
+}

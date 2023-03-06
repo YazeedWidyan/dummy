@@ -1,0 +1,50 @@
+.homeContainer {
+  background-color: #c9d1dc;
+  padding-top: 30px;
+}
+
+.bookWrapper {
+  display: flex;
+  gap: 12px;
+}
+.bookLeftSection {
+  flex: 2;
+}
+.bookRightSection {
+  flex: 1;
+}
+
+.filterWrapper {
+  background-color: #dcdfe4;
+  border-radius: 7px;
+  padding: 25px;
+  border: 1px solid rgb(28, 47, 124);
+}
+
+.filtersList {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1068px) {
+  .bookCardImg {
+    width: 100%;
+  }
+  .bookWrapper {
+    flex-direction: column;
+  }
+  .filtersList {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .bookCardImg {
+    width: 100%;
+  }
+  .bookWrapper {
+    flex-direction: column;
+  }
+}
